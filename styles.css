@@ -1,0 +1,66 @@
+body {
+	background: black;
+	font-family: "Unbounded", cursive;
+}
+
+p {
+	font-size: 14;
+}
+
+.postcard {
+	background-color: white;
+	width: 400px;
+	height: 300px;
+	max-width: 500px;
+	margin: auto;
+}
+
+.postcard-header {
+	display: flex;
+}
+
+.postcard-header img {
+	padding-right: 10px;
+	padding-top: 10px;
+	width: 50px;
+	height: 50px;
+}
+
+.postcard-header h1 {
+	width: 100%;
+	margin: 0;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+.postcard-body {
+	display: flex;
+}
+
+.body-left p:first-child {
+	margin-top: 0;
+}
+
+.body-left,
+.body-right {
+	padding: 10px;
+}
+
+input {
+	font-family: "Unbounded", cursive;
+	font-size: 14;
+	padding: 5px;
+	border: none;
+	border-bottom: 1px grey solid;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+
+.postcard-footer button {
+	background-color: darkgray;
+	padding: 10px;
+	border: none;
+	font-family: "Unbounded", cursive;
+}
